@@ -1,0 +1,17 @@
+.img {
+	height: 6rem;
+}
+.header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+	width: 80vw;
+	margin: auto;
+}
+.title {
+	color: white;
+	font-size: 6em;
+	font-family: var(--font-title);
+}

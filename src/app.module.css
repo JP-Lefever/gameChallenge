@@ -1,0 +1,17 @@
+body {
+	background-image: url(./assets/halloween-haunted-landscape-illustration.jpg);
+	background-size: cover;
+}
+.detail{
+	width: 25vw;
+	margin: auto;
+	border: solid rgb(202, 134, 8);
+	margin-top: 2em;
+	padding: 2em;
+	background-color: rgb(202, 134, 8);
+	border-radius: 10px;
+}
+.title {
+	text-align: center;
+	margin-bottom: 1em;
+}

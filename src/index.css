@@ -1,0 +1,15 @@
+@font-face {
+	font-family: "Halloween";
+	src: url(./assets/font/halloween_17/HALLOWEEN.ttf);
+}
+
+#root {
+	--primary-color: #212a3b;
+	--second-color: #181e29;
+	--third-color: white;
+	--font-title: "halloween", sans-serif;
+}
+* {
+	margin: 0;
+	padding: 0;
+}

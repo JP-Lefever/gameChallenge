@@ -1,0 +1,42 @@
+.nav {
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	border: solid 2px white;
+	width: fit-content;
+	margin: auto;
+	border-radius: 10px;
+}
+.button {
+	height: 3rem;
+	width: 6rem;
+	border-radius: 10px;
+	background-color: var(--primary-color);
+	box-shadow: -1px 2px 5px 1px;
+	color: white;
+	font-weight: bold;
+}
+.button:active {
+	transform: translate(0, 3px);
+}
+.section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 3em;
+	width: 30vw;
+	height: 1vh;
+	margin: 1em auto;
+	border-radius: 10px;
+}
+.filter {
+	display: flex;
+	flex-direction: row;
+	gap: 4em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.title {
+	font-size: 2em;
+	color: white;
+}
