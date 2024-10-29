@@ -1,7 +1,7 @@
 import type { productProps } from "../../assets/lib/definitions";
 import style from "./product.module.css";
 
-function Product({ items ,setCurrentGame,currentGame}: productProps) {
+function Product({ items}: productProps) {
 	const { image, price, description, title, category} = items;
 	
 
@@ -15,7 +15,6 @@ function Product({ items ,setCurrentGame,currentGame}: productProps) {
 				<p className={style.paragraf}>{description}</p>
 				<aside className={style.price}>{price}</aside>
 				<aside>{category}</aside>
-				<button type="button">En savoir plus</button>
 				
 			</div>
 		</section>

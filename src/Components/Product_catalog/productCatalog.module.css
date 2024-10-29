@@ -6,3 +6,8 @@
 	padding: 2rem;
 	gap: 2rem;
 }
+.button {
+	position: relative;
+	left: 11em;
+	bottom: 2.5em;
+}

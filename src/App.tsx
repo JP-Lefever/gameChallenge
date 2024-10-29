@@ -18,7 +18,9 @@ function App() {
 			? catalog
 			: catalog.filter((c) => c.category.includes(userFilter));
 	const [currentGame, setCurrentGame] = useState(catalog[0]);
-	
+	const detail = catalog[currentGame]
+
+	console.log(currentGame)
 	return (
 		<body className={style.body}>
 			<Header title={title} image={image} />
@@ -33,7 +35,7 @@ function App() {
 				/>
 			<div className={style.detail}>
 					<h3 className={style.title}>EN SAVOIR PLUS ?</h3>
-			<ProductDetail item={currentGame}/>
+			<ProductDetail item={detail}/>
 			</div>
 			
 		</body>

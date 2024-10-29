@@ -2,12 +2,17 @@ import { productCatalogProps } from "../../assets/lib/definitions";
 import Product from "../product/Product";
 import style from "./productCatalog.module.css";
 
-function ProductCatalog({ category, setCurrentGame, currentGame }:productCatalogProps) {
+function ProductCatalog({ category, setCurrentGame}:productCatalogProps) {
 
 	return (
 			<section className={style.section}>
-				{category.map((c) => (
-					<Product key={c.id} items={c} setCurrentGame={setCurrentGame} currentGame={currentGame}  />			
+				{category.map((c,i) => (
+					<>
+					<div >
+					<Product key={c.id} items={c}/>			
+					<button className={style.button} type="button" onClick={()=>setCurrentGame(i)}>En savoir plus</button>
+					</div>
+					</>
 				))}
 			</section>
 	);
