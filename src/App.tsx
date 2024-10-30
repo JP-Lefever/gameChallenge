@@ -13,11 +13,12 @@ function App() {
 	const { image, title }: headProps = infoHead;
 	const catalog = itemList;
 	const [userFilter, setUserFilter] = useState("");
+	const [currentGame, setCurrentGame] = useState(0);
 	const filteredCategory =
 		userFilter === ""
 			? catalog
 			: catalog.filter((c) => c.category.includes(userFilter));
-	const [currentGame, setCurrentGame] = useState(0);
+	console.log(filteredCategory);
 
 	return (
 		<body className={style.body}>
@@ -33,7 +34,7 @@ function App() {
 			/>
 			<div className={style.detail}>
 				<h3 className={style.title}>EN SAVOIR PLUS ?</h3>
-				<ProductDetail item={catalog[currentGame]} />
+				<ProductDetail item={filteredCategory[currentGame]} />
 			</div>
 		</body>
 	);

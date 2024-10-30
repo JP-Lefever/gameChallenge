@@ -1,4 +1,4 @@
-import { productCatalogProps } from "../../assets/lib/definitions";
+import type { productCatalogProps } from "../../assets/lib/definitions";
 import Product from "../product/Product";
 import style from "./productCatalog.module.css";
 
