@@ -11,16 +11,14 @@ import ProductDetail from "./Components/product_detail/ProductDetail";
 
 function App() {
 	const { image, title }: headProps = infoHead;
-	const catalog: itemListProps[] = itemList;
+	const catalog = itemList;
 	const [userFilter, setUserFilter] = useState("");
 	const filteredCategory =
 		userFilter === ""
 			? catalog
 			: catalog.filter((c) => c.category.includes(userFilter));
-	const [currentGame, setCurrentGame] = useState(catalog[0]);
-	const detail = catalog[currentGame]
+	const [currentGame, setCurrentGame] = useState(0);
 
-	console.log(currentGame)
 	return (
 		<body className={style.body}>
 			<Header title={title} image={image} />
@@ -28,19 +26,17 @@ function App() {
 				category={catalog}
 				userFilter={userFilter}
 				setUserFilter={setUserFilter}
-				/>		
+			/>
 			<ProductCatalog
 				category={filteredCategory}
 				setCurrentGame={setCurrentGame}
-				/>
+			/>
 			<div className={style.detail}>
-					<h3 className={style.title}>EN SAVOIR PLUS ?</h3>
-			<ProductDetail item={detail}/>
+				<h3 className={style.title}>EN SAVOIR PLUS ?</h3>
+				<ProductDetail item={catalog[currentGame]} />
 			</div>
-			
 		</body>
 	);
 }
-
 
 export default App;

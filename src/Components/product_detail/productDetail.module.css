@@ -1,4 +1,45 @@
+.img {
+	height: 20vh;
+	width: auto;
+}
 .section {
-    position: relative;
-    left: 2.7em;
+	display: flex;
+	flex-direction: column;
+	width: 20vw;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+	padding-top: 1em;
+	border-radius: 10px;
+	background-color: var(--primary-color);
+	background-size: cover;
+	transform: transition .1s;
+	border: solid white 3px;
+}
+.section:hover {
+	transform: scale(1.1);
+}
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 18vw;
+	gap: 1em;
+	padding: 2em 1em;
+	border-radius: 10px;
+	color: white;
+	border: 4px white solid;
+	height: 12em;
+}
+.paragraf {
+	text-align: center;
+	color: black;
+	font-size: 1.1em;
+	color: white;
+}
+.price {
+	color: red;
+	font-weight: bold;
+	font-size: 1.1em;
 }
