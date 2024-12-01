@@ -43,3 +43,11 @@
 	font-weight: bold;
 	font-size: 1.1em;
 }
+.button {
+	background-color: orange;
+	padding: 5px;
+	border-radius: 10px;
+	font-family: "Courier New", Courier, monospace;
+	color: black;
+	font-weight: bold;
+}

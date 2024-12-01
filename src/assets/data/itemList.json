@@ -1,6 +1,6 @@
 [
 	{
-		"id": "1",
+		"id": 1,
 		"title": "Age of Innovation",
 		"description": "Age of Innovation est un jeu indépendant dans l'univers de Terra Mystica. Contrôlez une faction et developpez-vous tout en limitant l'expansion de vos adversaires.",
 		"price": "80.95€",
@@ -8,7 +8,7 @@
 		"category": "Jeux experts"
 	},
 	{
-		"id": "2",
+		"id": 2,
 		"title": "Scythe",
 		"description": "Dans Scythe, prenez le contrôle de l'Usine, un territoire encore meurtri par les combats de la Première Guerre Mondiale. Vivez une expérience de jeu hautement stratégique..",
 		"price": "82.95€",
@@ -16,7 +16,7 @@
 		"category": "Jeux experts"
 	},
 	{
-		"id": "3",
+		"id": 3,
 		"title": "Unlock ! legendary Advendures",
 		"description": "Avec Unlock!, retrouvez le plaisir d'un escape game sur votre table de salon !",
 		"price": "29.99€",
@@ -24,7 +24,7 @@
 		"category": "Jeux coopératifs"
 	},
 	{
-		"id": "4",
+		"id": 4,
 		"title": "7 wonders",
 		"description": "L'Antiquité et ses merveilles. Revivez l'épopée des grandes constructions avec ce jeu de cartes et de stratégie !",
 		"price": "44.50€",
@@ -32,7 +32,7 @@
 		"category": "Jeux famille"
 	},
 	{
-		"id": "5",
+		"id": 5,
 		"title": "Myrmes",
 		"description": "Au royaume de Myrmes, les colonies des fourmis luttent depuis des siècles pour dominer leurs voisines.",
 		"price": "49.99€",
@@ -40,7 +40,7 @@
 		"category": "Jeux experts"
 	},
 	{
-		"id": "6",
+		"id": 6,
 		"title": "Dixit",
 		"description": "Dixit est un jeu de société enchanteur qui vous invite à vous laisser porter par votre imagination",
 		"price": "29.99€",
@@ -48,7 +48,7 @@
 		"category": "Jeux famille"
 	},
 	{
-		"id": "7",
+		"id": 7,
 		"title": "Solennia",
 		"description": "Depuis plusieurs millénaires, le cycle du jour et de la nuit s'est figé sur la minuscule planète Solenia...",
 		"price": "29.99€",
@@ -56,11 +56,11 @@
 		"category": "Jeux famille"
 	},
 	{
-		"id": "8",
+		"id": 8,
 		"title": "Wingspan",
 		"description": "Qui sera le plus fin collectionneur ? Entrez dans le monde des passionnés d'ornithologie !",
 		"price": "59.99€",
-		"image": "https://matagot-friends.com/france/7548-large_default/wingspan.jpg",
+		"image": "https://www.espritjeu.com/upload/image/wingspan-p-image-67127-grande.jpg",
 		"category": "Jeux famille"
 	}
 ]

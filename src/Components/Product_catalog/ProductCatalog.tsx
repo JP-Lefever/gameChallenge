@@ -1,25 +1,23 @@
-import type { productCatalogProps } from "../../assets/lib/definitions";
+import type { listProps } from "../../assets/lib/definitions";
 import Product from "../product/Product";
 import style from "./productCatalog.module.css";
 
-function ProductCatalog({ category, setCurrentGame }: productCatalogProps) {
+function ProductCatalog({
+	filteredCategory,
+	setCurrentGame,
+}: {
+	filteredCategory: listProps[];
+	setCurrentGame: (s: number) => void;
+	currentGame: number;
+}) {
 	return (
-		<section className={style.section}>
-			{category.map((c, i) => (
-				<>
-					<div key={c.name}>
-						<Product key={c.id} items={c} />
-						<button
-							className={style.button}
-							type="button"
-							onClick={() => setCurrentGame(i)}
-						>
-							En savoir plus
-						</button>
-					</div>
-				</>
-			))}
-		</section>
+		<>
+			<section className={style.section}>
+				{filteredCategory.map((c) => (
+					<Product key={c.id} items={c} setCurrentGame={setCurrentGame} />
+				))}
+			</section>
+		</>
 	);
 }
 

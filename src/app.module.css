@@ -1,8 +1,10 @@
 body {
 	background-image: url(./assets/halloween-haunted-landscape-illustration.jpg);
 	background-size: cover;
+	display: flex;
+	width: 95vw;
 }
-.detail{
+.detail {
 	width: 25vw;
 	margin: auto;
 	border: solid rgb(202, 134, 8);
