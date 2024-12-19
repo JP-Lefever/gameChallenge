@@ -2,7 +2,7 @@
 	{
 		"id": 1,
 		"title": "Age of Innovation",
-		"description": "Age of Innovation est un jeu indépendant dans l'univers de Terra Mystica. Contrôlez une faction et developpez-vous tout en limitant l'expansion de vos adversaires.",
+		"description": "Age of Innovation est un jeu  dans l'univers de Terra Mystica. Developpez-vous tout en limitant l'expansion de vos adversaires.",
 		"price": "80.95€",
 		"image": "https://www.ludum.fr/17284-large_default/age-of-innovation.jpg",
 		"category": "Jeux experts"
@@ -10,7 +10,7 @@
 	{
 		"id": 2,
 		"title": "Scythe",
-		"description": "Dans Scythe, prenez le contrôle de l'Usine, un territoire encore meurtri par les combats de la Première Guerre Mondiale. Vivez une expérience de jeu hautement stratégique..",
+		"description": "Dans Scythe, prenez le contrôle de l'Usine, un territoire encore meurtri par les combats de la Première Guerre Mondiale. ",
 		"price": "82.95€",
 		"image": "https://cdn2.philibertnet.com/359508-thickbox_default/scythe-vf.jpg",
 		"category": "Jeux experts"

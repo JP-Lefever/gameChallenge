@@ -33,7 +33,7 @@ function App() {
 			</div>
 			<div className={style.detail}>
 				<h3 className={style.title}>Panier</h3>
-				<ProductDetail item={filteredCategory[currentGame]} />
+				<ProductDetail item={catalog[currentGame]} />
 			</div>
 		</body>
 	);

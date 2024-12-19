@@ -14,4 +14,7 @@
 	color: white;
 	font-size: 6em;
 	font-family: var(--font-title);
+	@media screen and (max-width: 450px) {
+		font-size: 2em;
+	}
 }

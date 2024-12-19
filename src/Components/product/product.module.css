@@ -15,6 +15,9 @@
 	background-size: cover;
 	transform: transition .1s;
 	border: solid white 3px;
+	@media screen and (max-width: 450px) {
+		width: 80vw;
+	}
 }
 .section:hover {
 	transform: scale(1.1);
@@ -31,6 +34,9 @@
 	color: white;
 	border: 4px white solid;
 	height: 12em;
+	@media screen and (max-width: 450px) {
+		width: 70vw;
+	}
 }
 .paragraf {
 	text-align: center;
